@@ -1,2 +1,2 @@
 # c7.github.io
-profil team html css
+c7 tour and travel html css

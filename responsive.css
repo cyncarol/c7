@@ -1,0 +1,52 @@
+/*Untuk Tablet*/
+@media all and (max-width: 1000px) {
+  .main h1 {
+    font-size: 32px;
+  }
+
+  .service {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/*Untuk Smartphone*/
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .main h1 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  .main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}

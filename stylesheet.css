@@ -1,5 +1,10 @@
 /*setting awal*/
-ul,li {
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li {
   margin: 0;
   padding: 0;
   list-style: none; /*gak ada bulat*/
@@ -9,14 +14,16 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-a{
+a {
   color: white;
   text-decoration: none; /*tdak ada tulisan garis bawah diteks link*/
 }
 
 /*css umum*/
 .container {
-  width: 1170px;
+  max-width: 1170px; /*membatasi lebar maksimum layar*/
+  width: 100%; /*penyesuaian pake meta name viewport*/
+  padding: 0 15px;
   margin: 0 auto; /*auto margin di kiri dan kanan*/
 }
 
@@ -41,9 +48,9 @@ header {
   z-index: 10; /*ubah urutan tumpukan elemen, tampil paling atas*/
 }
 
-.header-logo {
+.header-left {
   color: white;
-  font-size: 37px;
+  font-size: 25px;
   line-height: 15px; /*jarak antar paragraf*/
   float: left; /*membuat ke kiri*/
   padding: 25px 40px 25px 40px;
@@ -78,9 +85,14 @@ header {
 
 .main h1 {
   opacity: 0.8; /*transparan*/
-  font-size: 50px;
+  font-size: 45px;
   letter-spacing: 5px; /*buat spasi diantara karakter di teks*/
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  opacity: 0.7;
+  margin-bottom: 3px;
 }
 
 .btn {
@@ -119,10 +131,16 @@ img {
 }
 
 .isi {
-  height: 600px; /*tinggi bagian isi*/
+  /*height: 600px; tinggi bagian isi*/
   padding-bottom: 80px; /*padding bawah bagian isi*/
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
+}
+
+.clear { /*penyesuaian layar untuk ukuran 670px kebawah*/
+  clear: left;
 }
 
 .service {
@@ -208,4 +226,8 @@ input, textarea {
   font-size: 25px;
   padding: 21px 0;
   display: none;
+}
+
+.fa {
+  margin-right: 30px;
 }

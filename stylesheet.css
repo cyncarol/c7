@@ -220,14 +220,6 @@ input, textarea {
 }
 
 /*css tombol menu garis tiga*/
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
 .fa {
-  margin-right: 5px;
+  margin-right: 5px; /*fix*/
 }

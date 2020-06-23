@@ -26,7 +26,7 @@
 }
 
 /*Untuk Smartphone*/
-@media all and (max-width: 670px) {
+@media all and (max-width: 970px) {
   .main {
     text-align: left;
   }
@@ -67,11 +67,15 @@
     width: 100%;
   }
 
+  input, textarea {
+    width: 100px;
+  }
+
   footer {
     text-align: center;
   }
-  
-  input, textarea {
-    width: 100px;
+
+  .footer-list {
+    text-align: left;
   }
 }

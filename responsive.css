@@ -74,6 +74,10 @@
   footer {
     text-align: left;
   }
+  
+  .footer-logo {
+    font-size: 15px;
+  }
 
   .footer-list {
     line-height: 30px;

@@ -80,8 +80,8 @@
   }
 
   .footer-list {
-    line-height: 30px;
-    text-align: left;
+    line-height: 100px;
+    float: left;
   }
   
   .footer-list li {

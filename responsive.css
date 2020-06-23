@@ -68,7 +68,7 @@
   }
 
   input, textarea {
-    width: 200px;
+    width: 300px;
   }
 
   footer {
@@ -81,11 +81,7 @@
 
   .footer-list {
     line-height: 100px;
-    float: left;
-  }
-  
-  .footer-list li {
-  padding-bottom: 50px;
+    float: right;
   }
   
   .header-left {

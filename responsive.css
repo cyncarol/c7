@@ -1,7 +1,18 @@
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+
 /*Untuk Tablet*/
 @media all and (max-width: 1000px) {
   .main h1 {
     font-size: 40px;
+  }
+
+  .menu-icon {
+    display: none;
   }
 
   .service {
